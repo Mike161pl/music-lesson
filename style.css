@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #feffed;
+}
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	background-image: linear-gradient(#000000, #864a2c);
+}
+.header-title {
+	font-size: 3rem;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: rgb(217, 220, 223);
+}
+.keyboard {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-image: url('./pexels-elina-sazonova-3971985.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.keyboard__keys {display: flex;
+	flex-direction:row;
+	font-size: 3rem;
+	background-color: rgba(0,0,0,.3);
+}
+.keyboard__keys .key {
+	padding: 1rem 2rem;
+	margin: 1rem;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	border: 1px solid white;
+	transition: .03s;
+}
+
+.playing {
+	transform: scale(1.1);
+background-color: rgba(255,255,255,0.6);
+}
